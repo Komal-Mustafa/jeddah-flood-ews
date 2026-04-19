@@ -1,0 +1,1 @@
+open('data/dashboard/app.py','w',encoding='utf-8').write(open(r'C:\Users\Komal\AppData\Local\Temp\app_clean.py',encoding='utf-8').read())

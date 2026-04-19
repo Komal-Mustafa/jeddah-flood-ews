@@ -1,0 +1,33 @@
+# ── Deep Learning ──────────────────────────────────────────────
+torch==2.6.0                  # CNN-LSTM model (PyTorch)
+
+# ── Machine Learning ───────────────────────────────────────────
+scikit-learn                  # MinMaxScaler, metrics (latest version)
+xgboost                       # Baseline ML model (latest version)
+
+# ── Data Handling ──────────────────────────────────────────────
+pandas                        # DataFrames, CSV reading
+numpy                         # Array operations
+scipy                         # Statistical functions
+
+# ── Weather Data API ───────────────────────────────────────────
+openmeteo-requests            # Open-Meteo weather API client
+requests-cache                # Caches API responses locally
+retry-requests                # Auto-retries failed API calls
+requests                      # HTTP requests library
+
+# ── Visualization ──────────────────────────────────────────────
+matplotlib                    # Training curves, EDA plots
+seaborn                       # Statistical plots, heatmaps
+plotly                        # Interactive charts in dashboard
+
+# ── Dashboard ──────────────────────────────────────────────────
+streamlit                     # Web dashboard framework
+folium                        # Interactive Jeddah map
+streamlit-folium              # Embeds Folium map in Streamlit
+
+# ── Scheduling & Automation ────────────────────────────────────
+APScheduler                   # Runs prediction every 15 minutes
+
+# ── Secrets Management ─────────────────────────────────────────
+python-dotenv                 # Loads .env file (API keys, passwords) keys, passwords)
